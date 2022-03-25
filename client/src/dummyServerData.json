@@ -1,0 +1,191 @@
+{
+  "Players":[
+    {
+      "id":"0",
+      "name":"Player 0",
+      "cardCount":"5",
+      "FieldCards":[
+        {
+          "id":"999990",
+          "name":"+5",
+          "type":"value",
+          "ownership":"0",
+          "visible":false
+        },
+        {
+          "id":"999991",
+          "name":"+3",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999992",
+          "name":"+2",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        }
+      ]
+    },
+    {
+      "id":"1",
+      "name":"Player 1",
+      "cardCount":"3",
+      "FieldCards":[
+        {
+          "id":"999910",
+          "name":"Hidden Card",
+          "type":"hidden",
+          "ownership":"1",
+          "visible":false
+        },
+        {
+          "id":"999911",
+          "name":"Hidden Card",
+          "type":"hidden",
+          "ownership":"1",
+          "visible":false
+        },
+        {
+          "id":"999912",
+          "name":"±1",
+          "type":"value wildcard",
+          "ownership":"1",
+          "visible":true
+        },
+        {
+          "id":"999913",
+          "name":"-6",
+          "type":"value",
+          "ownership":"1",
+          "visible":true
+        }
+      ]
+    },
+    {
+      "id":"0",
+      "name":"Player 0",
+      "cardCount":"5",
+      "FieldCards":[
+        {
+          "id":"999900",
+          "name":"±1",
+          "type":"value wildcard",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999901",
+          "name":"x2",
+          "type":"modifier place",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999902",
+          "name":"Play a Card Face Down",
+          "type":"modifier play playFaceDown",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999903",
+          "name":"+3",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999904",
+          "name":"-2",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        }
+      ]
+    },
+    {
+      "id":"0",
+      "name":"Player 0",
+      "cardCount":"5",
+      "FieldCards":[
+        {
+          "id":"999900",
+          "name":"±1",
+          "type":"value wildcard",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999901",
+          "name":"x2",
+          "type":"modifier place",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999902",
+          "name":"Play a Card Face Down",
+          "type":"modifier play playFaceDown",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999903",
+          "name":"+3",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        },
+        {
+          "id":"999904",
+          "name":"-2",
+          "type":"value",
+          "ownership":"0",
+          "visible":true
+        }
+      ]
+    }
+  ],
+  "You":{
+    "id":"0",
+    "HandCards":[
+      {
+        "id":"999900",
+        "name":"±1",
+        "type":"value wildcard",
+        "ownership":"0",
+        "visible":true
+      },
+      {
+        "id":"999901",
+        "name":"x2",
+        "type":"modifier place",
+        "ownership":"0",
+        "visible":true
+      },
+      {
+        "id":"999902",
+        "name":"Play a Card Face Down",
+        "type":"modifier play playFaceDown",
+        "ownership":"0",
+        "visible":true
+      },
+      {
+        "id":"999903",
+        "name":"+3",
+        "type":"value",
+        "ownership":"0",
+        "visible":true
+      },
+      {
+        "id":"999904",
+        "name":"-2",
+        "type":"value",
+        "ownership":"0",
+        "visible":true
+      }
+    ]
+  }
+}

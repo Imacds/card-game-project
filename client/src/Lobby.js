@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 //import './App.css';
 
-function Lobby() {
+function Lobby(props) {
     return(
         <div className="App">
             <header className="App-header">
@@ -21,7 +21,7 @@ function Lobby() {
                             <div className="bg border" id="playerListingPlayer2">Player 2 <Button id="kickPlayer2" variant="outline-primary">Kick</Button></div>
                             <div className="bg border" id="playerListingPlayer3">Player 3 <Button id="kickPlayer3" variant="outline-primary">Kick</Button></div>
                         </Stack>
-                        <Button id="startButton" variant="outline-primary">Start Game</Button> 
+                        <Button id="startButton" variant="outline-primary" onClick={props.changePageState}>Start Game</Button> 
                     </Col>
                     <Col>
                         <Form.Label htmlFor="nameInput">Name</Form.Label>

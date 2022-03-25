@@ -14,7 +14,7 @@ function cardClick(cardName){
     console.log(`Clicked on card ${cardName}`);
 }
 
-function Game() {
+function Game(props) {
     return(
         <div className="App">
             <header className="App-header">
@@ -58,11 +58,11 @@ function Game() {
                     </Row>
                     <br/>
                     <Row className="justify-content-center">
-                        <Col>
+                        <Col md="auto">
                             <Card body style={{ width: '18rem' }} bg="dark" text="light">                            
                                 <Card.Text>Your Hand</Card.Text>
                                 <ListGroup>
-                                    <ListGroup.Item action onClick={cardClick}>1</ListGroup.Item> 
+                                    <ListGroup.Item action onClick={cardClick}>±1</ListGroup.Item> 
                                     <ListGroup.Item action onClick={cardClick}>x2</ListGroup.Item> 
                                     <ListGroup.Item action onClick={cardClick}>Play a Card Face Down</ListGroup.Item> 
                                     <ListGroup.Item action onClick={cardClick}>+3</ListGroup.Item> 
@@ -70,7 +70,7 @@ function Game() {
                                 </ListGroup>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col md="auto">
                             <Card body style={{ width: '18rem' }} bg="light" text="dark">                            
                                 <Card.Text>Your Field</Card.Text>
                                 <ListGroup>
@@ -84,7 +84,7 @@ function Game() {
                     <br/>
                     <Row className="justify-content-center">
                         <Col>
-                            <Button className="disabled">Pass</Button>
+                            <Button className="" variant="outline-primary" onClick={props.changePageState}>Pass</Button>
                         </Col>
                     </Row>
                 </Container>
